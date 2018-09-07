@@ -1,0 +1,111 @@
+﻿@model IEnumerable<QualityCaps.Models.Order>
+
+@{
+    ViewData["Title"] = "OrdersPlaced";
+}
+
+<h2>OrdersPlaced</h2>
+
+
+    <h4>Order</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.PostalCode)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Country)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderStatus)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Gst)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Total)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderDate)
+                </th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PostalCode)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Country)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderStatus)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gst)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Total)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDate)
+                    </td>
+                </tr>
+
+
+        }
+</tbody>
+ </table>

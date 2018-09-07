@@ -1,0 +1,74 @@
+﻿@model QualityCaps.Models.ShoppingCartViewModels.ShoppingCartViewModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<h2><span class="glyphicon glyphicon glyphicon-shopping-cart"></span></h2>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <h4 class="display-4">Your Cart Item</h4>
+        </div>
+        <div class="col-sm-2">
+            <h4 class="display-4">Quantity</h4>
+        </div>
+        <div class="col-sm-2">
+            <h4 class="display-4">Price</h4>
+        </div>
+    </div>
+
+    @foreach (var item in Model.CartItems)
+    {
+    <div class="row">
+
+        <div class="col-sm-2"><a asp-action="#" asp-route-id="#"><p>@item.Cap.Name</p></a> </div>
+
+        <div class="col-sm-2">@item.Count         <a asp-action="RemoveFromCart" asp-controller="ShoppingCart" asp-route-id="@item.Cap.ID"><span class="glyphicon glyphicon-remove-circle"></span></a></div>
+
+        <div class="col-sm-2">$@item.Cap.Price</div>
+        <a asp-action="CartEmpty" asp-controller="ShoppingCart" asp-route-id="@item.Cap.ID"><button>Clear Cart</button></a>
+    </div>
+        
+    }
+    <script>
+
+    </script>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">Gst:</div>
+        <div class="col-sm-2" id="gst"></div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">Grand Total:</div>
+
+        <div class="col-sm-2" id="final" ></div>
+        <input id="elem" value="@Model.CartTotal" style="visibility:hidden;" />
+
+
+    </div>
+    <script>
+        var elem = document.getElementById("elem").value;
+        var gst = elem * 0.15;
+      
+        document.getElementById("gst").innerHTML = " $" + gst;
+        document.getElementById("final").innerHTML =" $"+ (gst + Number(elem)).toFixed(2);
+    </script>
+    @if (@Model.CartItems.Count > 0)
+    {
+        <div class="row">
+            <div class="col-sm-offset-4">
+                <a asp-action="Create" asp-controller="Orders">
+                    Proceed To Checkout <span class="glyphicon glyphicon-step-forward"></span>
+                </a>
+            </div>
+        </div>
+
+    }
+
+</div>
+

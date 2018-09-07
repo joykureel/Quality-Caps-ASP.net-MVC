@@ -1,0 +1,48 @@
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.deps.json
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.json
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.deps.json
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.json
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.deps.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.pdb
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.deps.json
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.json
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.dll
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\bin\Debug\netcoreapp2.0\QualityCaps.pdb
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csprojAssemblyReference.cache
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.dll
+D:\Old laptop Backup\College work\CapFinal\QualityCaps\QualityCaps\obj\Debug\netcoreapp2.0\QualityCaps.pdb

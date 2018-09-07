@@ -1,0 +1,123 @@
+﻿@model PaginatedList<QualityCaps.Models.Cap>
+
+@{
+    ViewData["Title"] = "Heads Up";
+}
+
+<h2>Heads Up</h2>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2" style="border:solid black; margin:2px; padding:5px;" >
+            <table >
+                <thead style="font-size:20px;">
+                    Categories
+                </thead>
+                <br />
+                <tr style="font-size:20px;">Men</tr>
+                <br />
+                <tr style="font-size:20px;">Women</tr>
+                <br />
+                <tr style="font-size:20px;">Children</tr>
+            </table>
+            <br />
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        Find by name: <input size="10" type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+                        <input type="submit" value="Search" class="btn btn-default" /> |
+                        <a asp-action="Index">Back to Full List</a>
+                    </p>
+                </div>
+            </form>
+            <div>
+                <br />
+                <p >Sort by:</p>
+                <a style="font-size:20px;" asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">Name</a>
+                <br />
+                <a style="font-size:20px;" asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">Price</a>
+
+            </div>
+        </div>
+        <div class="col-md-1" ></div>
+        <div class="col-md-8">
+            <div class="row">
+                @foreach (var item in Model)
+    {
+        var imgUrl = @Href("~" + item.Image);
+        var errImg = @Href("~/images/error.jpg");
+            <div class="col-md-1"></div>
+            <div class="col-md-5" style="border:solid cornflowerblue; border-radius: 9px; padding:10px; margin:10px;">
+                <div>
+                    <img style=" margin:auto; width:280px; height: 250px;" src="@imgUrl" alt="Student Image" onerror="this.onerror = null; this.src = '@errImg'">
+                </div>
+                <div>
+                    <center>
+                        Name:
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </center>
+                </div>
+
+                <div>
+                    <center>
+                        Price: $
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </center>
+                </div>
+
+                <div>
+                    <center>
+                        Category:
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </center>
+                </div>
+                <div>
+                    <center>
+                        Description:
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </center>
+                </div>
+                <br/>
+                <div>
+                    <center>
+                        <button>
+                            <a style="text-decoration:none;" asp-action="AddToCart" asp-controller="ShoppingCart" asp-route-id="@item.ID">
+                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                Add To Cart
+                            </a>
+                        </button>
+                    </center>
+                </div>
+
+            </div>
+
+}
+            </div>
+        </div>
+    </div>
+</div>
+@{ var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-page="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-page="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>

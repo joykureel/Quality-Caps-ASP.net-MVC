@@ -1,0 +1,11 @@
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\MCD\Debug\netcoreapp2.0\QualityCaps.deps.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\MCD\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\MCD\Debug\netcoreapp2.0\QualityCaps.runtimeconfig.dev.json
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\MCD\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\bin\MCD\Debug\netcoreapp2.0\QualityCaps.pdb
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\QualityCaps.csproj.CoreCompileInputs.cache
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\QualityCaps.AssemblyInfoInputs.cache
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\QualityCaps.AssemblyInfo.cs
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\QualityCaps.dll
+C:\Users\joy\Desktop\New folder\Cap5\cap\QualityCaps\QualityCaps\obj\MCD\Debug\netcoreapp2.0\QualityCaps.pdb
